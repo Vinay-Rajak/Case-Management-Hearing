@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="CSS/home_style.css">
+</head>
+
+<body>
+
+    <div id="nav">
+        <img src="Image/home_logo.png" class="logo" alt="logo">
+        <p>Ministry <br> of <br>
+            Law and Justice</p>
+
+        <nav class="nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a  onclick="activeLoginCard()">Login</a></li>
+            <li><a href="#">About</a></li>
+        </nav>
+
+    </div>
+    <div id="content">
+
+    </div>
+    <div id="login">
+
+        <h1>Login</h1>
+
+        <form action="">
+            <div>
+                <label for="userId"> User-Id</label> <br>
+                <input type="text" id="userId" placeholder="User-Id">
+            </div>
+
+            <div>
+                <label for="userPassword"> User-Password</label>
+                <br> <input type="password" id="userPassword" placeholder="Password">
+            </div>
+
+            <button id="submit" class="btn-submit " onclick="validDetail()"> submit</button>
+
+        </form>
+    </div>
+
+    <script src="Js/home.js"></script>
+</body>
+
+</html>

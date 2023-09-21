@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+}
+
+
+/*.............  nav bar csss ............ */
+#nav{
+    width: 100vw;
+    
+    height: 155px;
+    padding: 20px 7vw;
+   
+    background-color: lightblue;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.logo{
+    height: 140px;
+
+}
+#nav>p{
+    text-align: center;
+    font-size: 40px;
+    /* margin-top: 20px; */
+    align-self: center;
+    justify-items: center;
+    font-weight: bold;
+    transform: translateX(20%);
+  
+}
+.nav-list{
+    display: flex;
+    gap: 40px;
+}
+
+.nav-list >li{
+    list-style: none;
+
+}
+
+.nav-list >li >a{
+    text-decoration: none;
+    font-size: 22px;
+}
+
+
+
+/* .......... content section css ........... */
+
+
+#content{
+    width: 100vw;
+    height: calc(100vh - 155px);
+    background-color: brown;
+  position: relative;
+}
+
+
+
+/* //.........  login card css  .......... */
+
+#login{
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(116, 116, 116);
+ transform: translate(-50% ,-25%) ;
+ border-radius: 20px;
+ opacity: 0;
+
+}
+
+
+#login>h1{
+    font-size: 35px;
+    
+}
+#login div{
+  margin-top: 25px;
+}
+#login input{
+    margin-top: 5px;
+    width: 21vw;
+    height: 35px;
+    padding: 3px 4px;
+}
+#userPassword::after{
+    content:'';
+    width: 10px;
+    height: 10px ;
+    border: 2px solid red;
+    position: relative;
+}
+
+.btn-submit{
+    margin-top: 25px;
+    width: 80%;
+    height: 40px;
+   margin-left: 10%;
+   cursor: pointer;
+   position: relative;
+}
+
